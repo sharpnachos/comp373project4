@@ -9,10 +9,10 @@ public class Green extends PaintJob {
     @Override
     public void build() {
         paintedCar.build();
-        paintRed(paintedCar);
+        paintGreen(paintedCar);
     }
 
-    private void paintRed(Car paintedCar){
+    private void paintGreen(Car paintedCar){
         System.out.println("Paint Job: Green");
     }
 }
