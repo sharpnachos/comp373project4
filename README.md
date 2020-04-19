@@ -6,6 +6,6 @@ In class Professor Zewdie told us that our pattern implementations did not need 
 
 # What does the code do?
 
-Both patterns have a correlation with vheicles where the Facade deals with inventory of cars designated to specific brands and body types for the dealership. The Designer pattern takes bodytypes of cars either suv or truck and gives them a color.
+Both patterns have a correlation with vehicles where the Facade deals with inventory of cars designated to specific brands and body types for the dealership. The Designer pattern takes bodytypes of cars either suv or truck and gives them a color.
 
 Feel free to email either of us if you have any questions.
