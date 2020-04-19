@@ -4,14 +4,14 @@ public class demo {
 
     public static void main(String[] args) {
         Car sedan = new Sedan();
-        Car redSedan = new Red(new Sedan());
+        Car greenSedan = new Green(new Sedan());
 
-        Car redTruck = new Red(new Truck());
+        Car greenTruck = new Green(new Truck());
         System.out.println("Sedan with no paintjob.");
         sedan.build();
-        System.out.println("\nSedan with red paintjob");
-        redSedan.build();
-        System.out.println("\nTruck with red paintjon");
-        redTruck.build();
+        System.out.println("\nSedan with green paintjob");
+        greenSedan.build();
+        System.out.println("\nTruck with green paintjon");
+        greenTruck.build();
     }
 }

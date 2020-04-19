@@ -1,8 +1,8 @@
 package designer;
 
-public class Red extends PaintJob {
+public class Green extends PaintJob {
 
-    public Red(Car paintedCar){
+    public Green(Car paintedCar){
         super(paintedCar);
     }
 
@@ -13,6 +13,6 @@ public class Red extends PaintJob {
     }
 
     private void paintRed(Car paintedCar){
-        System.out.println("Paint Job: Red");
+        System.out.println("Paint Job: Green");
     }
 }
